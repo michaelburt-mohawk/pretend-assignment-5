@@ -79,7 +79,7 @@ position = Vector2(55, 640)
 [node name="Walls" type="Node2D" parent="."]
 
 [node name="VerticalWall1" type="Node2D" parent="Walls"]
-position = Vector2(0, 256)
+position = Vector2(309, -260)
 
 [node name="WallPiece" parent="Walls/VerticalWall1" instance=ExtResource("2_ndf8e")]
 rotation = 0.7853982
@@ -96,6 +96,28 @@ rotation = 0.7853982
 scale = Vector2(0.99999994, 0.99999994)
 
 [node name="WallPiece4" parent="Walls/VerticalWall1" instance=ExtResource("2_ndf8e")]
+position = Vector2(0, 384)
+rotation = 0.7853982
+scale = Vector2(0.99999994, 0.99999994)
+
+[node name="VerticalWall5" type="Node2D" parent="Walls"]
+position = Vector2(2, 256)
+
+[node name="WallPiece" parent="Walls/VerticalWall5" instance=ExtResource("2_ndf8e")]
+rotation = 0.7853982
+scale = Vector2(0.99999994, 0.99999994)
+
+[node name="WallPiece2" parent="Walls/VerticalWall5" instance=ExtResource("2_ndf8e")]
+position = Vector2(0, 128)
+rotation = 0.7853982
+scale = Vector2(0.99999994, 0.99999994)
+
+[node name="WallPiece3" parent="Walls/VerticalWall5" instance=ExtResource("2_ndf8e")]
+position = Vector2(0, 256)
+rotation = 0.7853982
+scale = Vector2(0.99999994, 0.99999994)
+
+[node name="WallPiece4" parent="Walls/VerticalWall5" instance=ExtResource("2_ndf8e")]
 position = Vector2(0, 384)
 rotation = 0.7853982
 scale = Vector2(0.99999994, 0.99999994)
